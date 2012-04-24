@@ -1,4 +1,4 @@
-(($, window, undefined) ->
+(($, window) ->
   $.fn.extend myPlugin: (options) ->
     @defaultOptions = 
       myOption: 'default-value'
