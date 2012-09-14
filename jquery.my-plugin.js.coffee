@@ -1,5 +1,5 @@
 (($, window) ->
-  $.fn.extend myPlugin: (options) ->
+  $.extend $.fn, myPlugin: (options) ->
     @defaultOptions = 
       myOption: 'default-value'
       another:  'default'
@@ -16,4 +16,4 @@
       # you will stop iterating over the collection.
     
     @ # allow chaining
-) jQuery, this
+) this.jQuery or this.Zepto, this
