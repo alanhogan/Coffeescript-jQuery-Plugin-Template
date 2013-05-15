@@ -1,3 +1,12 @@
+# Plugin <Un-named>
+# By <your name> <year>
+#
+# <Notes>
+#
+# License: <MIT, Public Domain, ...?>
+# 
+# Started from https://github.com/alanhogan/Coffeescript-jQuery-Plugin-Template
+
 (($, window) ->
   $.extend $.fn, myPlugin: (options) ->
     @defaultOptions = 
